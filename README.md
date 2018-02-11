@@ -24,6 +24,9 @@ Phaser 3 (previously named Lazer) is the newest official version of Phaser. As o
 
 > There are currently no starter templates for Phaser 3.
 
+## Phaser Logo Usage
+The Phaser logo (Phaser-Logo-Small.png) is a trademark of Photon Storm, and is meant to be used in a manner consistent with their [usage guidelines](https://phaser.io/download/trademark).
+
 [phaser]: https://phaser.io/
 [vs-code]: https://code.visualstudio.com/
 [typescript]: https://www.typescriptlang.org/
