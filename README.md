@@ -2,9 +2,11 @@
 This repository includes a number of starter templates for [Phaser][phaser] game framework, and was originally part of my [Phaser Tutorials collection](https://github.com/JamesSkemp/PhaserTutorials).
 
 ## Templates
-All templates use Visual Studio Code, but do not require that it be used. However, Visual Studio Code is a great, free, cross-platform application.
+All templates use [Visual Studio Code][vs-code], but do not require that it be used. However, Visual Studio Code is a great, free, cross-platform application, and is highly recommended.
 
-TypeScript is used, and required, for all templates. Some templates use [Node.js][node-js]
+[TypeScript][typescript] is used, and required, for all templates. Some templates use [Node.js][node-js].
+
+See each individual project for specific requirements and setup instructions.
 
 ### Phaser Community Edition
 As of this writing, Phaser Community Edition (CE) is the active branch of Phaser v2. New features and bug fixes are being made to this code, so it's recommended to use this.
@@ -24,4 +26,5 @@ Phaser 3 (previously named Lazer) is the newest official version of Phaser. As o
 
 [phaser]: https://phaser.io/
 [vs-code]: https://code.visualstudio.com/
+[typescript]: https://www.typescriptlang.org/
 [node-js]: https://nodejs.org/en/
