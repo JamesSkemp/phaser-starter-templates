@@ -19,8 +19,8 @@ Version 2.6.2 was the last official/non-community edition of Phaser. While this 
 
 - [Starter Project for Phaser with Visual Studio Code and TypeScript](./v2-official/_starter-v2-vsc-ts): Uses the last official release of Phaser 2.
 
-### Phaser 3 (Beta)
-Phaser 3 (previously named Lazer) is the newest official version of Phaser. As of this writing Phaser 3 is not yet released.
+### Phaser 3
+Phaser 3 (previously named Lazer) is the latest official version of Phaser. As of this writing Phaser 3 is missing TypeScript defintions, and is not as feature complete. Once TypeScript defintions are available I'll create Phaser 3 starter templates.
 
 > There are currently no starter templates for Phaser 3.
 
