@@ -1,18 +1,18 @@
 {
-  "name": "starter-phaser-node-ce",
+  "name": "starter-phaser-v2-ce-vsc-ts-node",
   "version": "0.0.1",
   "description": "Starter Project for Phaser CE with TypeScript, NodeJS, and VS Code.",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:JamesSkemp/PhaserTutorials.git"
+    "url": "git+ssh://git@github.com:JamesSkemp/phaser-starter-templates.git"
   },
   "private": true,
   "author": {
     "name": "James Skemp",
     "email": "strivinglife@gmail.com",
-    "url": "http://jamesrskemp.com"
+    "url": "https://jamesrskemp.com"
   },
-  "homepage": "https://github.com/JamesSkemp/PhaserTutorials",
+  "homepage": "https://github.com/JamesSkemp/phaser-starter-templates",
   "devDependencies": {
     "browserify": "^14.5.0",
     "glob": "^7.1.2",
