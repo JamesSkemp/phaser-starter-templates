@@ -39,4 +39,4 @@ Run `gulp` after modifying code to populate the **dist** directory with the fina
 If you'd like to run a simple web server, install http-server via `npm install http-server -g`, which can then be run from the dist directory by running `http-server`.
 
 ## Upgrading Phaser CE
-To upgrade Phaser CE run `npm upgrade phaser-ce` (passing `--save` if you wish to update the package.json).
+To upgrade Phaser CE run `npm upgrade phaser-ce` (passing `npm upgrade phaser-ce --save` if you wish to update the package.json).
