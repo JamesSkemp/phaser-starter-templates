@@ -74,44 +74,6 @@ var StarterProject;
 })(StarterProject || (StarterProject = {}));
 var StarterProject;
 (function (StarterProject) {
-    var ExampleState = /** @class */ (function (_super) {
-        __extends(ExampleState, _super);
-        function ExampleState() {
-            return _super !== null && _super.apply(this, arguments) || this;
-        }
-        ExampleState.prototype.init = function () {
-            console.log((new Date).toISOString() + ' : Entered ExampleState init()');
-            // init can receive parameters.
-        };
-        ExampleState.prototype.preload = function () {
-            console.log((new Date).toISOString() + ' : Entered ExampleState preload()');
-            // Recommendation is to limit calls to the Phaser Loader only. (Interphase 1, pg 29)
-        };
-        ExampleState.prototype.loadUpdate = function () {
-            // Called while assets are being loaded.
-        };
-        ExampleState.prototype.create = function () {
-            console.log((new Date).toISOString() + ' : Entered ExampleState create()');
-        };
-        ExampleState.prototype.update = function () {
-        };
-        ExampleState.prototype.paused = function () {
-            console.log((new Date).toISOString() + ' : Entered ExampleState paused()');
-        };
-        ExampleState.prototype.pauseUpdate = function () {
-        };
-        ExampleState.prototype.resumed = function () {
-            console.log((new Date).toISOString() + ' : Entered ExampleState resumed()');
-        };
-        ExampleState.prototype.shutdown = function () {
-            console.log((new Date).toISOString() + ' : Entered ExampleState shutdown()');
-        };
-        return ExampleState;
-    }(Phaser.State));
-    StarterProject.ExampleState = ExampleState;
-})(StarterProject || (StarterProject = {}));
-var StarterProject;
-(function (StarterProject) {
     var Boot = /** @class */ (function (_super) {
         __extends(Boot, _super);
         function Boot() {
@@ -189,4 +151,42 @@ var StarterProject;
         return Preloader;
     }(Phaser.State));
     StarterProject.Preloader = Preloader;
+})(StarterProject || (StarterProject = {}));
+var StarterProject;
+(function (StarterProject) {
+    var ExampleState = /** @class */ (function (_super) {
+        __extends(ExampleState, _super);
+        function ExampleState() {
+            return _super !== null && _super.apply(this, arguments) || this;
+        }
+        ExampleState.prototype.init = function () {
+            console.log((new Date).toISOString() + ' : Entered ExampleState init()');
+            // init can receive parameters.
+        };
+        ExampleState.prototype.preload = function () {
+            console.log((new Date).toISOString() + ' : Entered ExampleState preload()');
+            // Recommendation is to limit calls to the Phaser Loader only. (Interphase 1, pg 29)
+        };
+        ExampleState.prototype.loadUpdate = function () {
+            // Called while assets are being loaded.
+        };
+        ExampleState.prototype.create = function () {
+            console.log((new Date).toISOString() + ' : Entered ExampleState create()');
+        };
+        ExampleState.prototype.update = function () {
+        };
+        ExampleState.prototype.paused = function () {
+            console.log((new Date).toISOString() + ' : Entered ExampleState paused()');
+        };
+        ExampleState.prototype.pauseUpdate = function () {
+        };
+        ExampleState.prototype.resumed = function () {
+            console.log((new Date).toISOString() + ' : Entered ExampleState resumed()');
+        };
+        ExampleState.prototype.shutdown = function () {
+            console.log((new Date).toISOString() + ' : Entered ExampleState shutdown()');
+        };
+        return ExampleState;
+    }(Phaser.State));
+    StarterProject.ExampleState = ExampleState;
 })(StarterProject || (StarterProject = {}));
