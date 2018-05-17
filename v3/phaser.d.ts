@@ -3627,7 +3627,7 @@ declare namespace Phaser {
              * @param key [description]
              * @param config [description]
              */
-            generateFrameNames(key: string, config: GenerateFrameNamesConfig): AnimationFrameConfig[];
+            generateFrameNames(key: string, config?: GenerateFrameNamesConfig): AnimationFrameConfig[];
 
             /**
              * [description]
@@ -3740,7 +3740,7 @@ declare namespace Phaser {
          * This context is created automatically by Phaser unless you provide a `context` property
          * in your Game Config.
          */
-        context: CanvasRenderingContext2D | WebGLRenderingContext | WebGL2RenderingContext;
+        context: CanvasRenderingContext2D | WebGLRenderingContext;
 
         /**
          * A flag indicating when this Game instance has finished its boot process.
@@ -43067,7 +43067,7 @@ declare namespace Phaser {
              * A handy reference to the Plugin Manager that is responsible for this plugin.
              * Can be used as a route to gain access to game systems and  events.
              */
-            protected pluginManager: Phaser.Plugins.BasePluginManager;
+            protected pluginManager: Phaser.Plugins.PluginManager;
 
             /**
              * A reference to the Game instance this plugin is running under.
@@ -43088,7 +43088,7 @@ declare namespace Phaser {
              * This property is only set when the plugin is instantiated and added to the Scene, not before.
              * You cannot use it during the `init` method, but you can during the `boot` method.
              */
-            protected systems: Phaser.Scene.Systems;
+            protected systems: Phaser.Scenes.Systems;
 
             /**
              * Called by the PluginManager when this plugin is first instantiated.
@@ -43469,7 +43469,7 @@ declare namespace Phaser {
              * A reference to the Scene Systems of the Scene that has installed this plugin.
              * This property is only set when the plugin is instantiated and added to the Scene, not before.
              */
-            protected systems: Phaser.Scene.Systems;
+            protected systems: Phaser.Scenes.Systems;
 
             /**
              * This method is called when the Scene boots. It is only ever called once.
