@@ -20,9 +20,9 @@ Version 2.6.2 was the last official/non-community edition of Phaser. While this 
 - [Starter Project for Phaser with Visual Studio Code and TypeScript](./v2-official/_starter-v2-vsc-ts): Uses the last official release of Phaser 2.
 
 ### Phaser 3
-Phaser 3 (previously named Lazer) is the latest official version of Phaser. As of this writing Phaser 3 is missing TypeScript defintions, and is not as feature complete. Once TypeScript defintions are available I'll create Phaser 3 starter templates.
+Phaser 3 (previously named Lazer) is the latest official version of Phaser.
 
-> There are currently no starter templates for Phaser 3.
+- [Starter Project for Phaser with Visual Studio Code and TypeScript](./v3/_starter-v3-vsc-ts-node): Uses NodeJS for pulling Phaser 3. TypeScript definitions are manually updated, as they are not yet part of the npm process.
 
 ## Phaser Logo Usage
 The Phaser logo (Phaser-Logo-Small.png) is a trademark of Photon Storm, and is meant to be used in a manner consistent with their [usage guidelines](https://phaser.io/download/trademark).
