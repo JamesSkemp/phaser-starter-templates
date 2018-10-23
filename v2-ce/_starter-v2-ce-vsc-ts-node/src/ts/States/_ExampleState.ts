@@ -5,13 +5,13 @@
 	public static Name: string = "ExampleState";
 
 	init() {
-		console.log((new Date).toISOString() + ' : Entered ExampleState init()');
+		console.log((new Date()).toISOString() + " : Entered ExampleState init()");
 		// init can receive parameters.
 
 	}
 
 	preload() {
-		console.log((new Date).toISOString() + ' : Entered ExampleState preload()');
+		console.log((new Date()).toISOString() + " : Entered ExampleState preload()");
 
 		// Recommendation is to limit calls to the Phaser Loader only. (Interphase 1, pg 29)
 	}
@@ -21,16 +21,15 @@
 	}
 
 	create() {
-		console.log((new Date).toISOString() + ' : Entered ExampleState create()');
+		console.log((new Date()).toISOString() + " : Entered ExampleState create()");
 
 	}
 
 	update() {
-
 	}
 
 	paused() {
-		console.log((new Date).toISOString() + ' : Entered ExampleState paused()');
+		console.log((new Date()).toISOString() + " : Entered ExampleState paused()");
 
 	}
 
@@ -39,12 +38,12 @@
 	}
 
 	resumed() {
-		console.log((new Date).toISOString() + ' : Entered ExampleState resumed()');
+		console.log((new Date()).toISOString() + " : Entered ExampleState resumed()");
 
 	}
 
 	shutdown() {
-		console.log((new Date).toISOString() + ' : Entered ExampleState shutdown()');
+		console.log((new Date()).toISOString() + " : Entered ExampleState shutdown()");
 
 	}
 }
