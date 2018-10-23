@@ -7,10 +7,10 @@ export default class Game extends Phaser.Game {
 	//static SOME_VARIABLE: number = 10;
 
 	constructor() {
-		console.log((new Date).toISOString() + ' : Entered Game constructor()');
+		console.log((new Date()).toISOString() + " : Entered Game constructor()");
 
 		// Update the width (800) and height (600) accordingly.
-		super(800, 600, Phaser.AUTO, 'content');
+		super(800, 600, Phaser.AUTO, "content");
 
 		// Add the game states.
 		this.state.add(BootState.Name, BootState);
@@ -23,5 +23,5 @@ export default class Game extends Phaser.Game {
 }
 
 window.onload = () => {
-	var game = new Game();
+	const game = new Game();
 };

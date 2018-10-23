@@ -2,6 +2,7 @@ import * as phaser from "phaser";
 import Boot from "./Scenes/Boot";
 import Preloader from "./Scenes/Preloader";
 import MainMenu from "./Scenes/MainMenu";
+import Utilities from "./Utilities";
 
 const gameConfig: GameConfig = {
 	width: 800,
@@ -13,7 +14,7 @@ const gameConfig: GameConfig = {
 
 export default class Game extends Phaser.Game {
 	constructor(config: GameConfig) {
-		console.log((new Date).toISOString() + ' : Entered Game constructor()');
+		Utilities.LogSceneMethodEntry("Game", "constructor");
 
 		super(config);
 
@@ -22,13 +23,13 @@ export default class Game extends Phaser.Game {
 		this.scene.add(MainMenu.Name, MainMenu);
 		this.scene.start(Boot.Name);
 	}
-};
+}
 
 /**
  * Workaround for inability to scale in Phaser 3.
  * From http://www.emanueleferonato.com/2018/02/16/how-to-scale-your-html5-games-if-your-framework-does-not-feature-a-scale-manager-or-if-you-do-not-use-any-framework/
  */
-function resize() {
+function resize(): void {
 	const canvas = document.querySelector("canvas");
 	const width = window.innerWidth;
 	const height = window.innerHeight;
@@ -44,8 +45,8 @@ function resize() {
 }
 
 window.onload = () => {
-	var game = new Game(gameConfig);
+	const game = new Game(gameConfig);
 	// Uncomment the following two lines if you want the game to scale to fill the entire page, but keep the game ratio.
 	//resize();
-	//window.addEventListener('resize', resize, true);
+	//window.addEventListener("resize", resize, true);
 };
