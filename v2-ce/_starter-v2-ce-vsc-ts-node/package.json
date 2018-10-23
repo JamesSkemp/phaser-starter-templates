@@ -1,7 +1,7 @@
 {
   "name": "starter-phaser-v2-ce-vsc-ts-node",
   "version": "0.0.1",
-  "description": "Starter Project for Phaser CE with TypeScript, NodeJS, and VS Code.",
+  "description": "Starter Project for Phaser 2 CE with TypeScript, NodeJS, and VS Code.",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:JamesSkemp/phaser-starter-templates.git"
@@ -13,17 +13,22 @@
     "url": "https://jamesrskemp.com"
   },
   "homepage": "https://github.com/JamesSkemp/phaser-starter-templates",
-  "devDependencies": {
-    "browserify": "^14.5.0",
-    "glob": "^7.1.2",
-    "gulp": "^3.9.1",
-    "gulp-typescript": "^3.2.3",
-    "tsify": "^3.0.3",
-    "typescript": "^2.6.2",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
-  },
   "dependencies": {
     "phaser-ce": "^2.11.1"
+  },
+	"scripts": {
+		"build": "webpack --mode production",
+		"build-dev": "webpack --mode none",
+		"start:dev": "webpack-dev-server --mode production"
+	},
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.4",
+    "ts-loader": "^5.2.2",
+    "tslint": "^5.11.0",
+    "typescript": "^2.6.2",
+    "webpack": "^4.21.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
   }
 }

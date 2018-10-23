@@ -2,7 +2,9 @@
 
 The following is a starter project to get started with a new game in Phaser 3 and Visual Studio Code, using TypeScript and NodeJS.
 
-## What this Provides
+> Since Phaser 3 does not yet bundle the TypeScript defintions, if you are copying this directory you will also need to copy the Phaser defintions file one directory level up.
+
+## What This Project Provides
 
 - src
 	- assets
@@ -25,6 +27,14 @@ The following is a starter project to get started with a new game in Phaser 3 an
 - tsconfig.json
 	- This file determines how TypeScript will compile the project.
 	- By default all TypeScript files will be compiled into a single app.js file in the root of the project.
+- tslint.json
+	- This file contains the default TSLint configuration. See [Configuring TSLint](https://palantir.github.io/tslint/usage/configuration/) for more information.
+- webpack.config.js
+	- This file contains the default webpack configuration.
+- .editorconfig
+	- "EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs." See https://editorconfig.org/
+- .gitlab-ci.yml
+	- Adds support to build and host your site on [GitLab Pages](https://docs.gitlab.com/ee/user/project/pages/).
 - .vscode/tasks.json
 	- Used by Visual Studio Code when running the build task.
 
@@ -33,7 +43,7 @@ To build this project you'll need [Node.js](https://nodejs.org) installed.
 
 Next run `npm install` in the root directory to install the various dependencies.
 
-Run `gulp` after modifying code to populate the **public** directory with the final site contents.
+Run `npm run build` after modifying code to populate the **public** directory with the final site contents. You can instead run `npm run build-dev` to build the JavaScript in development mode, or `npm run start:dev` to run an automatically updating instance.
 
 If you'd like to run a simple web server, install http-server via `npm install http-server -g`, which can then be run from the public directory by running `http-server`.
 
