@@ -10,6 +10,13 @@ To use one of these templates you can download a copy of, or clone, this reposit
 
 See each individual project for specific requirements and setup instructions.
 
+### Which Version Should I Use?
+If you're not sure what version to use, I would recommend starting with Phaser 3.
+
+While not as stable or mature as Phaser 2.x, and there aren't as many tutorials *yet* (but it is getting there), Phaser 3 is where the future is at.
+
+If you're new to JavaScript and/or game development, using Phaser Community Edition is also an option. Phaser 2 tutorials will generally work fine, requiring minor changes, if any.
+
 ### Phaser 3
 Phaser 3 (previously named Lazer) is the latest official version of Phaser.
 
