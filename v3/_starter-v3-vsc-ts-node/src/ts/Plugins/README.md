@@ -1,1 +1,0 @@
-This directory could contain any custom plugins used by the game.

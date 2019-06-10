@@ -20,15 +20,15 @@ If you're new to JavaScript and/or game development, using Phaser Community Edit
 ### Phaser 3
 Phaser 3 (previously named Lazer) is the latest official version of Phaser.
 
-TypeScript definitions are manually updated, as they are not yet part of the npm process. If copying one of these templates you must also copy the Phaser TypeScript defintions and either keep it in the same relative location, or update the project accordingly.
+These starter templates are setup in GitHub as templates that can be used to easily create new projects.
 
-- [Starter Project for Phaser with Visual Studio Code and TypeScript](./v3/_starter-v3-vsc-ts-node): Recommended for new development, uses NodeJS for pulling Phaser 3, and Webpack for compilation.
+- [Starter Project for Phaser with Visual Studio Code, TypeScript, and Node.js](https://github.com/JamesSkemp/phaser-3-vsc-typescript-nodejs): Recommended for new development, uses Node.js for pulling Phaser 3, and Webpack for compilation.
 
 ### Phaser Community Edition (CE)
 As of this writing, Phaser Community Edition (CE) is the active branch of Phaser v2. New features and bug fixes are being made to this code, so it's recommended to use this over the last official release of Phaser 2.
 
-- [Starter Project for Phaser CE with Visual Studio Code, TypeScript, and NodeJS](./v2-ce/_starter-v2-ce-vsc-ts-node): Uses NodeJS for pulling Phaser CE, and Webpack for compilation.
-- [Starter Project for Phaser CE with Visual Studio Code and TypeScript](./v2-ce/_starter-v2-ce-vsc-ts): The same as the above project, but Phaser CE must be manually updated by grabbing the code from the [Phaser site][phaser]. Use this if you don't want the NodeJS dependency.
+- [Starter Project for Phaser CE with Visual Studio Code, TypeScript, and Node.js](./v2-ce/_starter-v2-ce-vsc-ts-node): Uses Node.js for pulling Phaser CE, and Webpack for compilation.
+- [Starter Project for Phaser CE with Visual Studio Code and TypeScript](./v2-ce/_starter-v2-ce-vsc-ts): The same as the above project, but Phaser CE must be manually updated by grabbing the code from the [Phaser site][phaser]. Use this if you don't want the Node.js dependency.
 
 ### Phaser 2.6.2
 Version 2.6.2 was the last official/non-community edition of Phaser. While this version can be used, it is no longer actively supported.
